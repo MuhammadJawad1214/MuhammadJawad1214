@@ -1,0 +1,166 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "This feature ensures all the headers in genre app is working fine",
+    "line": 1,
+    "id": "this-feature-ensures-all-the-headers-in-genre-app-is-working-fine",
+    "tags": [],
+    "uri": "genreHeaders.feature",
+    "elements": [
+      {
+        "id": "this-feature-ensures-all-the-headers-in-genre-app-is-working-fine;verify-the-legal-dashboard-header",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify the legal dashboard header",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am in home page",
+            "result": {
+              "status": "failed",
+              "duration": 932000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://vnext.g2claims-dev.genre.com/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: socket hang up\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142215:11)\nFrom previous event:\n    at go (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142177:17)\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142247:20)\nFrom previous event:\n    at visit (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142245:38)\n    at Context.visit (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142254:14)\n    at wrapped (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:157357:43)\nFrom Your Spec Code:\n    at eval (cypress/e2e/step_definitions/loginSteps.ts:14:7)\n    at step (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:94:23)\n    at Object.eval [as next] (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:75:53)\n    at eval (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:69:71)\nat new Promise (<anonymous>)\n    at __awaiter (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:65:12)\n    at Context.eval (cypress/e2e/step_definitions/loginSteps.ts:11:27)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: socket hang up\n      at connResetException (node:internal/errors:691:14)\n      at TLSSocket.socketOnEnd (node:_http_client:466:23)\n      at TLSSocket.emit (node:events:538:35)\n      at TLSSocket.emit (node:domain:475:12)\n      at endReadableNT (node:internal/streams/readable:1345:12)\n      at processTicksAndRejections (node:internal/process/task_queues:83:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click on legal dashboard header",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I verify i am on the legal dashboard",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-headers-in-genre-app-is-working-fine;verify-the-accounting-dashboard-header",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Verify the accounting dashboard header",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am in home page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://vnext.g2claims-dev.genre.com/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: socket hang up\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142215:11)\nFrom previous event:\n    at go (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142177:17)\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142247:20)\nFrom previous event:\n    at visit (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142245:38)\n    at Context.visit (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142254:14)\n    at wrapped (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:157357:43)\nFrom Your Spec Code:\n    at eval (cypress/e2e/step_definitions/loginSteps.ts:14:7)\n    at step (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:94:23)\n    at Object.eval [as next] (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:75:53)\n    at eval (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:69:71)\nat new Promise (<anonymous>)\n    at __awaiter (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:65:12)\n    at Context.eval (cypress/e2e/step_definitions/loginSteps.ts:11:27)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: socket hang up\n      at connResetException (node:internal/errors:691:14)\n      at TLSSocket.socketOnEnd (node:_http_client:466:23)\n      at TLSSocket.emit (node:events:538:35)\n      at TLSSocket.emit (node:domain:475:12)\n      at endReadableNT (node:internal/streams/readable:1345:12)\n      at processTicksAndRejections (node:internal/process/task_queues:83:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click on accounting dashboard header",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I verify i am on the accounting dashboard",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-headers-in-genre-app-is-working-fine;verify-the-expense-dashboard-header",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Verify the expense dashboard header",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am in home page",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://vnext.g2claims-dev.genre.com/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: socket hang up\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142215:11)\nFrom previous event:\n    at go (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142177:17)\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142247:20)\nFrom previous event:\n    at visit (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142245:38)\n    at Context.visit (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142254:14)\n    at wrapped (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:157357:43)\nFrom Your Spec Code:\n    at eval (cypress/e2e/step_definitions/loginSteps.ts:14:7)\n    at step (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:94:23)\n    at Object.eval [as next] (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:75:53)\n    at eval (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:69:71)\nat new Promise (<anonymous>)\n    at __awaiter (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:65:12)\n    at Context.eval (cypress/e2e/step_definitions/loginSteps.ts:11:27)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: socket hang up\n      at connResetException (node:internal/errors:691:14)\n      at TLSSocket.socketOnEnd (node:_http_client:466:23)\n      at TLSSocket.emit (node:events:538:35)\n      at TLSSocket.emit (node:domain:475:12)\n      at endReadableNT (node:internal/streams/readable:1345:12)\n      at processTicksAndRejections (node:internal/process/task_queues:83:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I click on expense dashboard header",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I verify i am on the expense dashboard",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-headers-in-genre-app-is-working-fine;verify-the-default-dashboard-header",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Verify the default dashboard header",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am in home page",
+            "result": {
+              "status": "failed",
+              "duration": 1000000,
+              "error_message": "CypressError: `cy.visit()` failed trying to load:\n\nhttps://vnext.g2claims-dev.genre.com/\n\nWe attempted to make an http request to this URL but the request failed without a response.\n\nWe received this error at the network level:\n\n  > Error: socket hang up\n\nCommon situations why this would fail:\n  - you don't have internet access\n  - you forgot to run / boot your web server\n  - your web server isn't accessible\n  - you have weird network configuration settings on your computer\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142216:82)\n    at visitFailedByErr (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:141505:12)\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142215:11)\nFrom previous event:\n    at go (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142177:17)\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142247:20)\nFrom previous event:\n    at visit (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142245:38)\n    at Context.visit (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:142254:14)\n    at wrapped (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:157357:43)\nFrom Your Spec Code:\n    at eval (cypress/e2e/step_definitions/loginSteps.ts:14:7)\n    at step (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:94:23)\n    at Object.eval [as next] (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:75:53)\n    at eval (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:69:71)\nat new Promise (<anonymous>)\n    at __awaiter (https://vnext.g2claims-dev.genre.com/__cypress/tests?p=cypress\\e2e\\features\\Genre_menus\\genreHeaders.feature:65:12)\n    at Context.eval (cypress/e2e/step_definitions/loginSteps.ts:11:27)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)\n\nFrom Node.js Internals:\n  Error: socket hang up\n      at connResetException (node:internal/errors:691:14)\n      at TLSSocket.socketOnEnd (node:_http_client:466:23)\n      at TLSSocket.emit (node:events:538:35)\n      at TLSSocket.emit (node:domain:475:12)\n      at endReadableNT (node:internal/streams/readable:1345:12)\n      at processTicksAndRejections (node:internal/process/task_queues:83:21)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I click on dashboard header",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "I verify i am on the dashboard page",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

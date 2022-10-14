@@ -1,0 +1,512 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "This feature ensures all the elements on Contacts page are working fine",
+    "line": 1,
+    "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine",
+    "tags": [],
+    "uri": "contacts.feature",
+    "elements": [
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-the-legal-dashboard-header",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify the legal dashboard header",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am in home page",
+            "result": {
+              "status": "passed",
+              "duration": 24717000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on dashboard header",
+            "result": {
+              "status": "passed",
+              "duration": 2823000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify i am on the dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-the-claim-number-search-and-type-the-value",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify the claim number search and type the value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user clicks on Claim Number Search and type",
+            "result": {
+              "status": "passed",
+              "duration": 5487000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "verify that the searched claim number shows correct results",
+            "result": {
+              "status": "passed",
+              "duration": 5137000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-the-user-is-prompted-to-right-screen-after-clicking-on-claim-number",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify the user is prompted to right screen after clicking on Claim number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "the user clicks on the Claim",
+            "result": {
+              "status": "passed",
+              "duration": 45330000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "verify that the user is prompted to Claim detail page",
+            "result": {
+              "status": "passed",
+              "duration": 2820000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-contacts-page",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "verify Contacts page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user clicks on the Contacts CTA",
+            "result": {
+              "status": "passed",
+              "duration": 402000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "verify that the user is prompted to Contacts page",
+            "result": {
+              "status": "passed",
+              "duration": 559000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-burger-menu-and-its-components",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "verify burger menu and its components",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the user clicks on the burger menu on contacts page",
+            "result": {
+              "status": "passed",
+              "duration": 226000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "verify that the buger menu is displayed and contents showing are correct",
+            "result": {
+              "status": "passed",
+              "duration": 30000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-add-claimant-contact-cta",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "verify Add Claimant Contact cta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "the user clicks on Add Claimant Contact cta",
+            "result": {
+              "status": "passed",
+              "duration": 1276000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "verify that the Add Claimaint pop-up window is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 24000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;add-new-claimant-contact-and-verify-the-input-fields-and-edit-icon",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "add new Claimant contact and verify the input fields and edit icon",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the user enter details of Claimant contact and clicks on Submit button",
+            "result": {
+              "status": "passed",
+              "duration": 4429000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "verify that the Claimant contact details should be added correctly",
+            "result": {
+              "status": "passed",
+              "duration": 726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 34,
+            "name": "verify the edit icon on contacts",
+            "result": {
+              "status": "passed",
+              "duration": 5874000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-add-insured-contact-cta",
+        "keyword": "Scenario",
+        "line": 36,
+        "name": "verify Add Insured Contact cta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 37,
+            "name": "the user clicks on Add Insured Contact cta",
+            "result": {
+              "status": "passed",
+              "duration": 444000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "verify that the Add Insured pop-up window is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;add-new-insured-contact-and-verify-the-input-fields",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "add new Insured contact and verify the input fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 41,
+            "name": "the user enter details of Insured contact and clicks on Submit button",
+            "result": {
+              "status": "passed",
+              "duration": 4658000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 42,
+            "name": "verify that the Insured contact details should be added correctly",
+            "result": {
+              "status": "passed",
+              "duration": 7953000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-add-misc-contact-cta",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "verify Add Misc Contact cta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 45,
+            "name": "the user clicks on Add Misc Contact cta",
+            "result": {
+              "status": "passed",
+              "duration": 547000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "verify that the Add Misc pop-up window is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 66000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;add-new-misc-contact-and-verify-the-input-fields",
+        "keyword": "Scenario",
+        "line": 48,
+        "name": "add new Misc contact and verify the input fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 49,
+            "name": "the user enter details of Misc contact and clicks on Submit button",
+            "result": {
+              "status": "passed",
+              "duration": 6258000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 50,
+            "name": "verify that the Misc contact details should be added correctly",
+            "result": {
+              "status": "passed",
+              "duration": 8169000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-add-involved-party-contact-cta",
+        "keyword": "Scenario",
+        "line": 52,
+        "name": "verify Add Involved Party Contact cta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 53,
+            "name": "the user clicks on Add Involved Party Contact cta",
+            "result": {
+              "status": "passed",
+              "duration": 375000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 54,
+            "name": "verify that the Add Involved Party pop-up window is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 15000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;add-new-involved-contact-and-verify-the-input-fields",
+        "keyword": "Scenario",
+        "line": 56,
+        "name": "add new Involved contact and verify the input fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "the user enter details of Involved Party contact and clicks on Submit button",
+            "result": {
+              "status": "passed",
+              "duration": 4419000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 58,
+            "name": "verify that the Involved Party contact details should be added correctly",
+            "result": {
+              "status": "passed",
+              "duration": 7560000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-search-for-contact-cta",
+        "keyword": "Scenario",
+        "line": 60,
+        "name": "verify Search For Contact cta",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 61,
+            "name": "the user clicks on Search For Contact cta",
+            "result": {
+              "status": "passed",
+              "duration": 461000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "verify that the Search For Contact pop-up window is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 28000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;search-for-contact-and-verify",
+        "keyword": "Scenario",
+        "line": 64,
+        "name": "search for contact and verify",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 65,
+            "name": "the user clicks on search bar and type the valid user name",
+            "result": {
+              "status": "passed",
+              "duration": 614000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 66,
+            "name": "verify that the searched user is displayed correctly",
+            "result": {
+              "status": "passed",
+              "duration": 1712000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;add-searched-contact-and-verify-its-fields",
+        "keyword": "Scenario",
+        "line": 68,
+        "name": "add searched contact and verify its fields",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 69,
+            "name": "the user clicks on searched user",
+            "result": {
+              "status": "passed",
+              "duration": 175000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 70,
+            "name": "verify that the searched user is added in contacts and showing correct details",
+            "result": {
+              "status": "passed",
+              "duration": 5843000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

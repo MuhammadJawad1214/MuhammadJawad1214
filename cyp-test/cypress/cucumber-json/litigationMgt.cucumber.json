@@ -1,0 +1,171 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "This feature ensures all the litigation management elements",
+    "line": 1,
+    "id": "this-feature-ensures-all-the-litigation-management-elements",
+    "tags": [],
+    "uri": "litigationMgt.feature",
+    "elements": [
+      {
+        "id": "this-feature-ensures-all-the-litigation-management-elements;verify-the-legal-dashboard-header",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify the legal dashboard header",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am in home page",
+            "result": {
+              "status": "passed",
+              "duration": 23947000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on dashboard header",
+            "result": {
+              "status": "passed",
+              "duration": 2618000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify i am on the dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 35000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-litigation-management-elements;verify-the-claim-number-search-and-type-the-value",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify the claim number search and type the value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user clicks on Claim Number Search and type",
+            "result": {
+              "status": "passed",
+              "duration": 5422000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "verify that the searched claim number shows correct results",
+            "result": {
+              "status": "passed",
+              "duration": 5076000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-litigation-management-elements;verify-the-user-is-prompted-to-right-screen-after-clicking-on-claim-number",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify the user is prompted to right screen after clicking on Claim number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "the user clicks on the Claim",
+            "result": {
+              "status": "passed",
+              "duration": 44253000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "verify that the user is prompted to Claim detail page",
+            "result": {
+              "status": "passed",
+              "duration": 2977000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-litigation-management-elements;verify-the-lititgation-management-page",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify the lititgation Management page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user clicks on the litigation mgt CTA",
+            "result": {
+              "status": "passed",
+              "duration": 218000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "verify that the user is prompted to Litigation Management page",
+            "result": {
+              "status": "passed",
+              "duration": 1282000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-litigation-management-elements;verify-the-budget-requested-date-on-litigation-page",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Verify the Budget Requested date on Litigation page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "the user clicks on Budget Requested Date and select the date",
+            "result": {
+              "status": "failed",
+              "error_message": "CypressError: `cy.click()` can only be called on a single element. Your subject contained 2 elements. Pass `{ multiple: true }` if you want to serially click each element.\n    at mouseAction (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:135268:76)\n    at Context.click (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:135447:14)\n    at wrapped (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:157367:19)\nFrom Your Spec Code:\n    at litigationMgtPage.clickOnBudgetRequestedDate (cypress/pages/litigationMgtPage.ts:87:44)\n    at Context.eval (cypress/e2e/step_definitions/ligtigationMgtSteps.ts:57:19)\n    at Context.resolveAndRunStepDefinition (node_modules/cypress-cucumber-preprocessor/lib/resolveStepDefinition.js:193:0)\n    at Context.eval (node_modules/cypress-cucumber-preprocessor/lib/createTestFromScenario.js:27:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "the Budget Requested Date should be populated correctly",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

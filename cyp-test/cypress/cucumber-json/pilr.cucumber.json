@@ -1,0 +1,322 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "This feature ensures all the elements on Contacts page are working fine",
+    "line": 1,
+    "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine",
+    "tags": [],
+    "uri": "pilr.feature",
+    "elements": [
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-the-legal-dashboard-header",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Verify the legal dashboard header",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 7,
+            "name": "I am in home page",
+            "result": {
+              "status": "passed",
+              "duration": 24449000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click on dashboard header",
+            "result": {
+              "status": "passed",
+              "duration": 2748000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I verify i am on the dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-the-claim-number-search-and-type-the-value",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Verify the claim number search and type the value",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "the user clicks on Claim Number Search and type",
+            "result": {
+              "status": "passed",
+              "duration": 5455000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "verify that the searched claim number shows correct results",
+            "result": {
+              "status": "passed",
+              "duration": 5105000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-the-user-is-prompted-to-right-screen-after-clicking-on-claim-number",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Verify the user is prompted to right screen after clicking on Claim number",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "the user clicks on the Claim",
+            "result": {
+              "status": "passed",
+              "duration": 45453000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "verify that the user is prompted to Claim detail page",
+            "result": {
+              "status": "passed",
+              "duration": 3234000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-claim-type-is-property-on-claim-dashboard",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "Verify claim type is property on Claim Dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "the user click on claim type and select property",
+            "result": {
+              "status": "passed",
+              "duration": 5498000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "verify that the claim type is selected to property and PILR tab is displayed",
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-pilr-page",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "verify PILR page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "the user clicks on the PILR CTA",
+            "result": {
+              "status": "passed",
+              "duration": 1287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "verify that the user is prompted to PILR page",
+            "result": {
+              "status": "passed",
+              "duration": 342000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;verify-burger-menu-on-pilr-page-and-its-components",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "verify burger menu on Pilr page and its components",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "the user clicks on the burger menu on Pilr page",
+            "result": {
+              "status": "passed",
+              "duration": 186000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 29,
+            "name": "verify that the buger menu is showing correct deatils",
+            "result": {
+              "status": "passed",
+              "duration": 38000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;click-on-create-and-verify-that-the-the-user-is-prompter-to-pilr-details-page",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "Click on create and verify that the the user is prompter to PILR Details page",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 32,
+            "name": "the user clicks on the Create button",
+            "result": {
+              "status": "passed",
+              "duration": 235000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 33,
+            "name": "verify that the user is prompted to PILR Details page",
+            "result": {
+              "status": "passed",
+              "duration": 31000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;add-details-in-pilr-section-and-verify-them",
+        "keyword": "Scenario",
+        "line": 35,
+        "name": "Add details in PILR section and verify them",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 36,
+            "name": "the user enter details in PILR Details section",
+            "result": {
+              "status": "passed",
+              "duration": 14077000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 37,
+            "name": "verify that the entered details are populated correctly in PILR Details",
+            "result": {
+              "status": "passed",
+              "duration": 434000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;add-details-in-insured-information-section-and-verify-them",
+        "keyword": "Scenario",
+        "line": 39,
+        "name": "Add details in Insured Information section and verify them",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 40,
+            "name": "the user enter details in Insured Information Details section",
+            "result": {
+              "status": "passed",
+              "duration": 11232000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "verify that the entered details are populated correctly in Insured Information",
+            "result": {
+              "status": "passed",
+              "duration": 243000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "this-feature-ensures-all-the-elements-on-contacts-page-are-working-fine;add-details-in-loss-information-section-and-verify-them",
+        "keyword": "Scenario",
+        "line": 43,
+        "name": "Add details in Loss Information section and verify them",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 44,
+            "name": "the user enter details in Loss Information Details section",
+            "result": {
+              "status": "passed",
+              "duration": 3087000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 45,
+            "name": "verify that the entered details are populated correctly in Loss Information",
+            "result": {
+              "status": "passed",
+              "duration": 112000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

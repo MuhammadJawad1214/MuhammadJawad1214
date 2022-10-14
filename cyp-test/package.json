@@ -1,0 +1,46 @@
+{
+  "name": "cypress-cucumber-typescript-v2",
+  "version": "1.0.0",
+  "description": "> Cypress 10+ with Cucumber Type Script.",
+  "main": "cucumber-html-report.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:runner": "cypress open",
+    "cypress:execution": "cypress run",
+    "ntlm-proxy": "start /min \"ntlm-proxy\" cmd /c node_modules\\.bin\\ntlm-proxy",
+    "cypress-ntlm": "npm run ntlm-proxy && (cypress-ntlm open & ntlm-proxy-exit)"
+  },
+  "keywords": [
+    "cypress"
+  ],
+  "bin": {
+    "cypress-ntlm": "./dist/launchers/cypress.ntlm.js",
+    "ntlm-proxy": "./dist/launchers/ntlm.proxy.main.js",
+    "ntlm-proxy-exit": "./dist/launchers/ntlm.proxy.exit.main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/e2e/step_definitions/",
+    "cucumberJson": {
+      "generate": true,
+      "outputFolder": "cypress/cucumber-json",
+      "filePrefix": "",
+      "fileSuffix": ".cucumber"
+    }
+  },
+  "devDependencies": {
+    "@types/cypress-cucumber-preprocessor": "^4.0.1",
+    "cypress": "^10.8.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "cypress-ntlm-auth": "^4.0.5",
+    "esbuild": "^0.14.48",
+    "multiple-cucumber-html-reporter": "^2.0.0",
+    "ntlm-auth": "^0.1.3",
+    "typescript": "^4.8.3"
+  },
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}

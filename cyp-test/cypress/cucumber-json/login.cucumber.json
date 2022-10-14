@@ -1,0 +1,60 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "test feature",
+    "line": 1,
+    "id": "test-feature",
+    "tags": [],
+    "uri": "login.feature",
+    "elements": [
+      {
+        "id": "test-feature;scenario-name-abc",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Scenario name abc",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "I am in home page",
+            "result": {
+              "status": "failed",
+              "duration": 30118000000,
+              "error_message": "CypressError: `cy.request()` timed out waiting `30000ms` for a response from your server.\n\nThe request we sent was:\n\nMethod: POST\nURL: http://127.0.0.1:60836/ntlm-config\n\nNo response was received within the timeout.\n    at <unknown> (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:144043:78)\nFrom previous event:\n    at Context.request (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:144042:15)\n    at wrapped (https://vnext.g2claims-dev.genre.com/__cypress/runner/cypress_runner.js:157357:43)\nFrom Your Spec Code:\n    at Context.ntlm (node_modules/cypress-ntlm-auth/dist/commands/index.js:58:0)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I insert username as \"as\" and password as \"asd\"",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I click on login button",
+            "result": {
+              "status": "skipped"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "I verify i am logged in sucessfully",
+            "result": {
+              "status": "skipped"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
